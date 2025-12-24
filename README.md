@@ -46,7 +46,8 @@ You will see the folder for the job you created (e.g., my-project12).
 
 ---------------------------------------
 
-# Step 4: Create Docker Image for Your Project cd /var/lib/jenkins/workspace/my-project12
+# Step 4:
+Create Docker Image for Your Project `cd /var/lib/jenkins/workspace/my-project12`
 
 Build a Docker image for your project:
 
