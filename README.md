@@ -50,11 +50,11 @@ You will see the folder for the job you created (e.g., my-project12).
 
 Build a Docker image for your project:
 
-## docker build -t my-project12-image .
+## `docker build -t my-app3 .`
 
 Verify that the image was created successfully:
 docker images
-You should see my-project12-image listed in the output.
+You should see my-app3 listed in the output.
 
 ![create docker images](assets/pictures/4.png)
 
