@@ -83,17 +83,20 @@ Open your web browser and go to:
 http://localhost:8001
 ![Run images](assets/pictures/6.png)
 
---> docker stop <contanerid>
---> docker rm <containerid>
---> docker rmi <image_id>
+`docker stop <contanerid>`
+
+`docker rm <containerid>`
+
+`docker rmi <image_id>`
 
 -----------------------------------------
 
 # Step 6:add jenkins user into docker group.
 
---> cat /etc/group | grep docker
---> sudo usermod -aG docker jenkins
---> sudo systemctl restart jenkins
+`cat /etc/group | grep docker`
+`sudo usermod -aG docker jenkins`
+`sudo systemctl restart jenkins`
+
 ![add jenkins user](assets/pictures/7.png)
 
 -----------------------------------------
@@ -128,14 +131,15 @@ got to the browser and check the page are deployed or not
 # step8:
 
 Then go to the `terminal` and verify the Docker resources:
-Run docker images to confirm that the image was built successfully.
-Run docker ps to confirm that the Docker container is running.
-This confirms that Jenkins successfully built the Docker image and ran the container
+Run `docker images` to confirm that the image was built successfully.
+Run `docker ps` to confirm that the Docker container is running.
+This confirms that Jenkins successfully `built` the Docker image and ran the container
 
 ![verify on terminal](assets/pictures/10.png)
 
 ------------------------------------------
 # step 9:
+
 ``docker stop my-jen-app``  –--> stops the running container
 
 ``docker rm my-jen-app``  –-> removes the container
@@ -154,10 +158,9 @@ This confirms that Jenkins successfully built the Docker image and ran the conta
 
 ---------------------------------------------------
 
-## Resume 
-Built an automated CI/CD pipeline with Jenkins and Docker for containerized application deployment.
-Integrated GitHub with Jenkins and automated build, run, and verification processes.
+##Resume
 
+Built and deployed an automated CI/CD pipeline using Jenkins and Docker, integrating GitHub to automate code pull, build, containerization, and deployment verification.
 
 "======================================================="
 
